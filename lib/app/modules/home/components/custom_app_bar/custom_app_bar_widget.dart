@@ -126,7 +126,7 @@ class CustomAppBarWidget extends HookWidget {
     final sizeIconAnimation = Tween<double>(begin: 1, end: 0).animate(
       CurvedAnimation(
         parent: controller,
-        curve: Curves.easeOutCirc,
+        curve: Interval(0, 0.5, curve: Curves.easeOutCirc),
         reverseCurve: Curves.easeInCirc,
       ),
     );

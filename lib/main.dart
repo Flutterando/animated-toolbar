@@ -1,5 +1,12 @@
+import 'package:flutter/foundation.dart'
+    show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';
-import 'package:desafio_options/app/app_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-void main() => runApp(ModularApp(module: AppModule()));
+import 'app/app_module.dart';
+
+void main() {
+  debugDefaultTargetPlatformOverride = TargetPlatform.macOS;
+
+  runApp(ModularApp(module: AppModule()));
+}

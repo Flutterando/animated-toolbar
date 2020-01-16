@@ -1,16 +1,19 @@
-# desafio_options
+# ToolBar Options Animation
 
-A new Flutter project.
+![alt text](toolbar.gif)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Inspiration:
+https://dribbble.com/shots/2653519-Menu?fbclid=IwAR2QvZAZryjJQzRDgfP9mSm8DMJScXZFHN8vevxBDaV7EeMMBtIjPHgkA_Y
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Created using:
+- Slidy
+- flutter_modular
+- mobx
+- flutter_hooks
+
+
+
+
