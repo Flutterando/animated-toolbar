@@ -19,9 +19,9 @@ environment:
 dependencies:
   font_awesome_flutter: ^8.5.0
   flutter_hooks: ^0.7.0
-  dio: ^3.0.8
-  flutter_mobx: ^0.3.6
-  mobx: ^0.4.0+1
+  dio: ">=3.0.8 <6.0.0"
+  flutter_mobx: ">=0.3.6 <3.0.0"
+  mobx: ">=0.4.0+1 <3.0.0"
   flutter_modular: ^0.2.1
   flutter:
     sdk: flutter
@@ -30,8 +30,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
 
 dev_dependencies:
-  mockito: ^4.1.1
-  mobx_codegen: ^0.4.0+1
+  mockito: ">=4.1.1 <6.0.0"
+  mobx_codegen: ">=0.4.0+1 <3.0.0"
   build_runner: ^1.7.3
   flutter_test:
     sdk: flutter
